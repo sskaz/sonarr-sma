@@ -43,5 +43,6 @@ VOLUME /config
 VOLUME /usr/local/sma/config
 
 # update.py sets FFMPEG/FFPROBE paths, updates API key and Sonarr/Radarr settings in autoProcess.ini
-COPY extras/ ${SMA_PATH}/
-COPY root/ /
+# are these are on local? dont see these in other forks.
+# COPY extras/ ${SMA_PATH}/
+# COPY root/ /
